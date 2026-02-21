@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Nexustube - A content creation and monetization platform with video sharing, posts, chat, earnings, profile, and store features",
+  "architectural_notes": [
+    "Primary color: Red (#FF0000), Secondary: Yellow-Orange (#FFC00E)",
+    "Dark gradient background with neon vibe",
+    "Bottom navigation with 7 tabs: Home, Video, Post, Chat, Earn, Profile, Store",
+    "End-to-end encrypted chat using Firebase/Supabase",
+    "WebRTC for voice/video calls",
+    "Revenue splits: Ads 65/35, Subscriptions 60/40, Store 80/20"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-video-upload-interface-that-allows-users-to-select-and-upload-video-files-with-a-progress-bar-showing-upload-status",
+      "title": "Create a video upload interface that allows users to select and upload video files with a progress bar showing upload status",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-video-feed-displaying-uploaded-videos-with-thumbnail-previews",
+      "title": "Create a video feed displaying uploaded videos with thumbnail previews",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-video-playback-functionality-with-standard-controls-play-pause-seek-volume",
+      "title": "Implement video playback functionality with standard controls (play, pause, seek, volume)",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-nexustube-branding-with-red-primary-color-ff0000-yellow-orange-secondary-color-ffc00e-and-dark-gradient-background-with-neon-vibe",
+      "title": "Apply Nexustube branding with red primary color (#FF0000), yellow-orange secondary color (#FFC00E), and dark gradient background with neon vibe",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Core video upload and feed features",
+      "reqIds": [],
+      "status": "in_progress"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement backend storage and retrieval system for uploaded videos",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Nexustube",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

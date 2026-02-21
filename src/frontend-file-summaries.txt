@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, theme provider, and layout structure including header, footer, and routing for home and video playback pages.",
+  "frontend/src/components/Header.tsx": "Header component with Nexustube branding, logo with red-to-orange gradient, and upload button that scrolls to upload section.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, Nexustube tagline, and attribution link to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/pages/HomePage.tsx": "Home page component featuring hero section with \"Create. Connect. Earn.\" tagline, video upload section, and video feed display.",
+  "frontend/src/pages/VideoPlaybackPage.tsx": "Video playback page that displays a single video with custom player controls and metadata, includes back navigation and error handling.",
+  "frontend/src/components/VideoUpload.tsx": "Video upload component with file selection, name input, progress tracking using ExternalBlob.withUploadProgress(), and form validation with toast notifications.",
+  "frontend/src/components/VideoFeed.tsx": "Video feed component that fetches and displays all uploaded videos in a responsive grid layout with loading and empty states.",
+  "frontend/src/components/VideoCard.tsx": "Reusable video card component displaying video thumbnail preview with hover effects, play button overlay, and navigation to playback page.",
+  "frontend/src/components/VideoPlayer.tsx": "Custom video player component with play/pause, volume control, seek bar, fullscreen toggle, and time display using HTML5 video element.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including useGetAllVideos, useGetVideo, and useAddVideo with automatic cache invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system for dark theme, Nexustube brand colors (red #FF0000 and orange #FFC00E), and dark gradient background with neon aesthetic.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Nexustube brand colors (nexus-red and nexus-orange) as custom color tokens for consistent theming."
+}

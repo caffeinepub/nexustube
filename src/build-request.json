@@ -1,0 +1,105 @@
+{
+  "kind": "build_request",
+  "title": "Implement core video upload and feed features",
+  "projectName": "Nexustube",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a video upload interface that allows users to select and upload video files with a progress bar showing upload status",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "User can select video files from their device",
+        "Progress bar displays upload percentage",
+        "Upload completes successfully and provides feedback"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement backend storage and retrieval system for uploaded videos",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Videos are stored persistently in the backend",
+        "Videos can be retrieved by unique identifier",
+        "System handles video metadata (title, upload date, uploader)"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a video feed displaying uploaded videos with thumbnail previews",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Feed displays all uploaded videos in a grid or list layout",
+        "Each video shows a thumbnail preview",
+        "Videos are clickable to view full content"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement video playback functionality with standard controls (play, pause, seek, volume)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Videos play when selected from the feed",
+        "Standard video controls are available and functional",
+        "Video player is responsive and handles different screen sizes"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Apply Nexustube branding with red primary color (#FF0000), yellow-orange secondary color (#FFC00E), and dark gradient background with neon vibe",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Primary red color is used for key UI elements and branding",
+        "Secondary yellow-orange color is used for accents and highlights",
+        "Dark gradient background with neon aesthetic is applied throughout the app",
+        "Color scheme creates a cohesive, modern visual identity"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not integrate YouTube Data API",
+    "Use only Motoko for backend logic",
+    "Use React with TypeScript for frontend",
+    "Do not modify immutable frontend paths (useInternetIdentity.ts, useInternetIdentity.tsx, useActor.ts, main.tsx, components/ui)"
+  ],
+  "nonGoals": [
+    "Live streaming functionality",
+    "Story strip feature",
+    "Athlete promotion section",
+    "Post creation and feed",
+    "Chat and video calling",
+    "Earnings and monetization features",
+    "Profile management",
+    "Store and e-commerce features",
+    "Bottom navigation with 7 tabs"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
